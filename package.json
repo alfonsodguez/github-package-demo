@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example of nodejs github package usage",
   "main": "index.js",
-  "directories": {
-    "test": "mocha --require @babel/register --timeout 30000"
-  },
   "scripts": {
     "test": "mocha --require @babel/register --timeout 300000"
   },
@@ -19,6 +16,9 @@
     "url": "https://github.com/alfonsodguez/github-package-demo/issues"
   },
   "homepage": "https://github.com/alfonsodguez/github-package-demo#readme",
+  "dependencies": {
+    "@alfonsodguez/nodejs-github-package": "^1.0.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
