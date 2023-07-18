@@ -4,7 +4,7 @@ Example of nodejs github package usage
 
 
 ## Basic usage
-First you need export your secret token into your session (it has to be the same as the package) e.g:
+First you need export your secret token into your shell session (it has to be the same as the package) e.g:
   ```
   $ export GITHUB_TOKEN="my-value-token"
   ```
